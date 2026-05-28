@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Введіть вашу інформацію:"
+        android:textSize="16sp" />
+
+    <!-- Input поле -->
+    <EditText
+        android:id="@+id/editTextInput"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:hint="Введіть текст тут..."
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="?attr/android:textColorPrimary"
+        android:textColorHint="?attr/android:textColorTertiary"
+        android:background="@drawable/edit_text_background" />
+
+    <!-- Кнопка зберегти -->
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="Зберегти"
+        android:textSize="16sp" />
+
+    <!-- TextView для відображення збереженого тексту -->
+    <TextView
+        android:id="@+id/textViewSaved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Збережено: нічого"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray" />
+
+</LinearLayout>
+
