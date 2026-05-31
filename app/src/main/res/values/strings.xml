@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">RemotePC</string>
-    <string name="main_card_title">RemotePC</string>
+    <string name="main_card_title">Main Card Title</string>
     <string name="settings">Settings</string>
 </resources>
