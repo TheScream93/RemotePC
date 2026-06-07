@@ -18,4 +18,6 @@
     <string name="hint_ssh_key_file">SSH Key File</string>
     <string name="default_ssh_port">22</string>
     <string name="pick_file">Обрати файл</string>
+    <string name="device_list_title">Список підключень</string>
+    <string name="devices">Пристрої</string>
 </resources>

@@ -9,9 +9,14 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val settingsButton = findViewById<ImageButton>(R.id.settingsButton)
+        val deviceListButton = findViewById<ImageButton>(R.id.devicesButton)
 
         settingsButton.setOnClickListener {
             SettingsDialog().show(supportFragmentManager, "SettingsDialog")
+        }
+
+        deviceListButton.setOnClickListener {
+            DeviceListDialog().show(supportFragmentManager, "DeviceListDialog")
         }
     }
 }

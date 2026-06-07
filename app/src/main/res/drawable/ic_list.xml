@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Основна рамка планшета -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M18,2H6C4.9,2 4,2.9 4,4V20C4,21.1 4.9,22 6,22H18C19.1,22 20,21.1 20,20V4C20,2.9 19.1,2 18,2ZM18,20H6V4H18V20Z" />
+
+    <!-- Верхній затискач (Clip) -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M12,1c-1.1,0 -2,0.9 -2,2h4C14,1.9 13.1,1 12,1z" />
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M15,3H9C8.45,3 8,3.45 8,4V5C8,5.55 8.45,6 9,6H15C15.55,6 16,5.55 16,5V4C16,3.45 15.55,3 15,3z" />
+
+    <!-- Крапки списку (зліва) -->
+    <path android:fillColor="@color/white" android:pathData="M8,8h2v2H8V8z" />
+    <path android:fillColor="@color/white" android:pathData="M8,11h2v2H8v-2z" />
+    <path android:fillColor="@color/white" android:pathData="M8,14h2v2H8v-2z" />
+    <path android:fillColor="@color/white" android:pathData="M8,17h2v2H8v-2z" />
+
+    <!-- Лінії списку (справа від крапок) -->
+    <path android:fillColor="@color/white" android:pathData="M11,9h5v1h-5V9z" />
+    <path android:fillColor="@color/white" android:pathData="M11,12h5v1h-5v-1z" />
+    <path android:fillColor="@color/white" android:pathData="M11,15h5v1h-5v-1z" />
+    <path android:fillColor="@color/white" android:pathData="M11,18h5v1h-5v-1z" />
+
+</vector>

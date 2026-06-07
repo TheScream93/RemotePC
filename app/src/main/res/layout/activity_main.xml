@@ -13,17 +13,36 @@
         android:background="@color/card_background"
         app:title="RemotePC"
         app:titleTextColor="@color/white">
-        <ImageButton
-            android:id="@+id/settingsButton"
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
-            android:layout_marginEnd="16dp"
-            android:minWidth="48dp"
-            android:minHeight="48dp"
-            android:background="@drawable/custom_ripple_borderless"
-            android:contentDescription="@string/settings"
-            android:src="@drawable/ic_settings" />
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/devicesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="@drawable/custom_ripple_borderless"
+                android:contentDescription="@string/devices"
+                android:src="@drawable/ic_list" />
+
+            <ImageButton
+                android:id="@+id/settingsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginEnd="16dp"
+                android:minWidth="48dp"
+                android:minHeight="48dp"
+                android:background="@drawable/custom_ripple_borderless"
+                android:contentDescription="@string/settings"
+                android:src="@drawable/ic_settings" />
+        </LinearLayout>
     </com.google.android.material.appbar.MaterialToolbar>
     <ScrollView
         android:layout_width="match_parent"
