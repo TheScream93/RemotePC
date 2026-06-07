@@ -1,5 +1,21 @@
 <resources>
     <string name="app_name">RemotePC</string>
-    <string name="main_card_title">Main Card Title</string>
+    <string name="main_card_title">RemotePC</string>
     <string name="settings">Settings</string>
+
+    <!-- SettingsDialog -->
+    <string name="dialog_title">Налаштування</string>
+    <string name="fieldset_required">Обов\'язкові поля</string>
+    <string name="fieldset_ssh">Налаштування SSH</string>
+    <string name="hint_alias">Name / Alias</string>
+    <string name="hint_host">Host / IP</string>
+    <string name="hint_ssh_port">SSH Port</string>
+    <string name="hint_username">User Name</string>
+    <string name="label_auth_type">Authorization Type</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_ssh_key">SSH Key</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_ssh_key_file">SSH Key File</string>
+    <string name="default_ssh_port">22</string>
+    <string name="pick_file">Обрати файл</string>
 </resources>
